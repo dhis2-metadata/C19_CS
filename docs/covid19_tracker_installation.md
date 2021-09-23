@@ -1,4 +1,4 @@
-# Tracker Packages Installation Guide
+# Tracker Packages Installation Guide { #covid19-cs-installation }
 
 Last updated 27/03/2020
 
