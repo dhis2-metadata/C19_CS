@@ -159,7 +159,7 @@ The following program rules have been configured. If a country has an existing c
 | Assign Onset Date| This assigns the onset date to the variable calculated onset date (for indicators). This variable is used as a custom parameter in some of the program indicators.|
 | Calculate and assign patient age in years | Calculate and assign patient age in years based on DOB |
 | Display patient age in years + days | Display patient age in years + days |
-| Hide Date of Death | Hide 'Date of Death' unless Death is the health outcome |
+| Hide Date of Death | Hide the Date of Death unless Death is the health outcome |
 | Hide Date of Discharge | Hide Date of Discharge if no outcome or if the outcome is death |
 | Hide Measured Temperature field | Hide Measured Temperature field until Fever is selected |
 | Hide confirmed case ID's if no contact with other confirmed cases| Hides any contact ID's if the case has not been in any contact with other confirmed cases |
