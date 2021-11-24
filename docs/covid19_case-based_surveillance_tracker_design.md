@@ -1,9 +1,9 @@
 # COVID-19 Case-based Surveillance & Contact Tracing Tracker System Design v0.3.3 { #covid19-cs-design }
 
-* Last updated 27/03/2020  
+* Last updated 24/11/2021  
 * Package version: 0.3.3
 * DHIS2 Version compatibility 2.33.2  
-* Demo: [https://covid19.dhis2.org](https://covid19.dhis2.org/demo)
+* Demo: [https://demos.dhis2.org/covid-19](https://demos.dhis2.org/covid-19)
 
 ## Purpose
 
@@ -81,7 +81,7 @@ The design of the case-based tracker program assumes that [WHO case definitions]
 
 ### Structure: COVID-19 Case Surveillance Tracker Program
 
-![Structure of the COVID-19 Case Surveillance Tracker Program](resources/images/sdd-tracker-v3-case1-structure.png)
+![Structure of the COVID-19 Case Surveillance Tracker Program](resources/images/sdd-tracker-v3-case1-structure-v2.png)
 
 #### Program Description: COVID-19 Case Testing, Diagnosis & Outcome
 
@@ -113,19 +113,23 @@ This section is hidden unless gender is selected as ‘Female.’
 
 ##### Section 3 - Underlying Conditions/Comorbidity
 
-This section is hidden unless “Any underlying conditions” is marked as “Yes”.  
+The details of this section are hidden unless “Any underlying conditions” is marked as “Yes”.  
 
 ![Section 3](resources/images/sdd-tracker-v3-case1-stage1-section3.png)
 
 ##### Section 4 - Hospitalisation
 
-This section is hidden unless “Hospitalised” is marked as “Yes”.
+The details of this section is hidden unless “Hospitalised” is marked as “Yes”.
 
 ![Section 4](resources/images/sdd-tracker-v3-case1-stage1-section4.png)
 
 ##### Section 5 - Exposure Risk
 
-This section is used to record exposures (fields are hidden by program rules if the case is not a health care worker; if the case has not had contact with a confirmed case in 14 days). A suspected case’s exposure to a *previously confirmed* case is distinct from prospective contact tracing in Program Stage 5.
+This section is used to record exposures 
+1. The fields ***country, city and facility*** are hidden by program rules if the case is not a health care worker; 
+2. The fields for contact IDs are hidden by program rules if the case has not had contact with a confirmed case in 14 days.
+
+A suspected case’s exposure to a *previously confirmed* case is distinct from prospective contact tracing in Program Stage 5.
 
 ![Section 5](resources/images/sdd-tracker-v3-case1-stage1-section5.png)
 
@@ -151,8 +155,14 @@ The following program rules have been configured. If a country has an existing c
 
 | Program Rule Name | Program Rule Description |
 |---|---|
+| Assign Enrollment Date | This assigns the enrollment date if there is no onset date available to the variable calculated onset date (for indicators). This variable is used as a custom parameter in some of the program indicators. |
+| Assign Onset Date| This assigns the onset date to the variable calculated onset date (for indicators). This variable is used as a custom parameter in some of the program indicators.|
 | Calculate and assign patient age in years | Calculate and assign patient age in years based on DOB |
 | Display patient age in years + days | Display patient age in years + days |
+| Hide Date of Death | Hide 'Date of Death' unless Death is the health outcome |
+| Hide Date of Discharge | Hide Date of Discharge if no outcome or if the outcome is death |
+| Hide Measured Temperature field | Hide Measured Temperature field until Fever is selected |
+| Hide confirmed case ID's if no contact with other confirmed cases| Hides any contact ID's if the case has not been in any contact with other confirmed cases |
 | Hide health care worker details if not a health worker | Hide health care worker details if not a health worker |
 | Hide health outcome explanation if health outcome is not other | Hide health outcome explanation if health outcome is not other |
 | Hide hospitalisation details if hospitalisation is no or unknown | Hide hospitalisation details if hospitalisation is no or unknown |
