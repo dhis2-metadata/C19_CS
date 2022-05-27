@@ -1,1 +1,1 @@
-# COVID19 - Case-based Surveillance
+# COVID19 - Case Surveillance
