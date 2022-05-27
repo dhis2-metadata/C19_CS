@@ -1,4 +1,4 @@
-# COVID-19 Case-based Surveillance & Contact Tracing Design { #covid19-cs-design }
+# COVID-19 Case-based Surveillance & Contact Tracing Design { #c19-cs-design }
 
 Demo: [https://demos.dhis2.org/covid-19](https://demos.dhis2.org/covid-19)
 
