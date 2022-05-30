@@ -11531,6 +11531,25 @@
                 },
                 {
                     "attributeValues": [],
+                    "color": "#9ecae1",
+                    "endValue": 45.0,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "XTmLeJHmd3m",
+                    "name": "35 - 44",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "startValue": 35.0,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "attributeValues": [],
                     "color": "#08519c",
                     "endValue": 85.0,
                     "externalAccess": false,
@@ -11569,6 +11588,25 @@
                 },
                 {
                     "attributeValues": [],
+                    "color": "#deebf7",
+                    "endValue": 25.0,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "evLlhbRsG6e",
+                    "name": "15 - 24",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "startValue": 15.0,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "attributeValues": [],
                     "color": "#FFFFFF",
                     "endValue": 5.0,
                     "externalAccess": false,
@@ -11601,44 +11639,6 @@
                         "users": {}
                     },
                     "startValue": 85.0,
-                    "translations": [],
-                    "userAccesses": [],
-                    "userGroupAccesses": []
-                },
-                {
-                    "attributeValues": [],
-                    "color": "#9ecae1",
-                    "endValue": 45.0,
-                    "externalAccess": false,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "XTmLeJHmd3m",
-                    "name": "35 - 44",
-                    "sharing": {
-                        "external": false,
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "startValue": 35.0,
-                    "translations": [],
-                    "userAccesses": [],
-                    "userGroupAccesses": []
-                },
-                {
-                    "attributeValues": [],
-                    "color": "#deebf7",
-                    "endValue": 25.0,
-                    "externalAccess": false,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "evLlhbRsG6e",
-                    "name": "15 - 24",
-                    "sharing": {
-                        "external": false,
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "startValue": 15.0,
                     "translations": [],
                     "userAccesses": [],
                     "userGroupAccesses": []
@@ -25212,7 +25212,7 @@
         "DHIS2Version": "2.36.10",
         "code": "C19_CS",
         "description": "COVID-19 Case Surveillance and Contact Tracing",
-        "lastUpdated": "20220527T113354",
+        "lastUpdated": "20220530T165141",
         "locale": "en",
         "name": "C19_CS_TRK_DHIS2.36.10-en",
         "type": "TRK",
@@ -31216,13 +31216,13 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "j7beWeP6BZ4",
+                    "id": "i539Ky2424G",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -31233,13 +31233,13 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "i539Ky2424G",
+                    "id": "j7beWeP6BZ4",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -42095,7 +42095,9 @@
             "version": 36
         }
     ],
+    "reports": [],
     "sections": [],
+    "sqlViews": [],
     "trackedEntityAttributes": [
         {
             "aggregationType": "NONE",
@@ -44165,7 +44167,7 @@
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
-                "public": "r-rw----",
+                "public": "rw------",
                 "userGroups": {},
                 "users": {}
             },
