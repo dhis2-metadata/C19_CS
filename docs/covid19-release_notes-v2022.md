@@ -10,10 +10,10 @@ Packages are currently translated into French, Spanish, Portuguese and Russian, 
 
 The new release includes:
 
-1. COVID-19 Case-based Surveillance Tracker program (v0.3.3)
+1. COVID-19 Case-based Surveillance Tracker program (v1.0.1)
 2. COVID-19 Contact Registration & Follow-Up program (v0.3.2)
-3. COVID-19 Aggregate Surveillance Reporting (v0.3.2) [***DISCONTINUED***]
-4. Points of Entry Screening Tracker program (v0.3.1)
+3. COVID-19 Aggregate Surveillance Reporting (v2.0.1) 
+4. Points of Entry Screening Tracker program (v1.0.0) [***DISCONTINUED***]
 
 ## COVID-19 Case-Based Surveillance Program (Tracker)
 
