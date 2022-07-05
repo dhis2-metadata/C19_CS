@@ -10,7 +10,7 @@ The package supports surveillance workflows and automated analysis for key compo
 
 * **COVID-19 Case-based surveillance [tracker]**: enrols & tracks suspected cases; captures symptoms, demographics, risk factors & exposures; creates lab requests; links confirmed cases with contacts; and monitors patient outcomes. This package can be installed as a standalone COVID-19 package or can be integrated into a country’s existing integrated disease surveillance & response tracker.
 * **Contact registration & follow-up program [tracker]**: strengthens active case detection through contact tracing activities, such as identification and follow-up of contacts of a suspected or confirmed COVID-19 case.
-* **Ports of Entry screening & follow-up program [tracker]**: enrols travellers who have visited high-risk locations at Ports of Entry for 14-day monitoring and follow-up. --> ***This programm is considered as LEGACY and therfore discontinued***
+* **Ports of Entry screening & follow-up program [tracker]**: enrols travellers who have visited high-risk locations at Ports of Entry for 14-day monitoring and follow-up.  [***DISCONTINUED***]
 * **COVID-19 Aggregate Surveillance [aggregate]**: an aggregate reporting dataset that captures minimum necessary data points for daily or weekly reporting
 
 All digital data packages are optimized for Android data collection with the DHIS2 Capture App, which is free to download on the [Google Play store](https://play.google.com/store/apps/details?id=com.dhis2&hl=en).
