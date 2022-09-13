@@ -1,11 +1,4 @@
-# Tracker Packages Installation Guide { #c19-cs-installation }
-
-Last updated 27/03/2020
-
-Package Version 0.3.3
-DHIS2 Version compatibility 2.33.2 and above
-
-Demo: [https://covid19.dhis2.org](https://covid19.dhis2.org/demo)
+# COVID-19 Surveillance - Installation Guide { #c19-cs-installation }
 
 ## Overview
 
