@@ -1,4 +1,4 @@
-# COVID-19 Case-based Surveillance & Contact Tracing Design { #c19-cs-design }
+# COVID-19 Case Surveillance & Contact Tracing Design { #c19-cs-design }
 
 Demo: [https://demos.dhis2.org/covid-19](https://demos.dhis2.org/covid-19)
 
@@ -10,7 +10,7 @@ The COVID-19 Surveillance System Design document provides an overview of the con
 
 **This design has been updated to reflect new aggregate reporting requirements from the [WHO interim surveillance guidelines updated March 20, 2020][1]**. The COVID-19 digital data package was developed in response to an expressed need from countries to rapidly adapt a solution for managing COVID-19 data. UiO has developed COVID-19 surveillance packages for three types of data models (tracker, event-based aggregate) to enable countries to select the model that is most appropriate for their context given the burden of disease and available resources. These models and their relative benefits/limitations are summarized below:
 
-| Type of Surveillance Package | Case-based Surveillance (Tracker) | Surveillance (Event) | Surveillance (Aggregate) |
+| Type of Surveillance Package | Case Surveillance (Tracker) | Surveillance (Event) | Surveillance (Aggregate) |
 |---|---|---|---|
 | ***Description*** | Enrols a case and tracks over time through laboratory confirmation & case outcome | Captures critical case details in line-listing format | Enables daily or weekly reporting of key aggregate data points |
 | ***Pros*** | Highly granular data and multiple time dimensions for analysis, can support decentralized workflow, all events linked to the case | More granular than aggregate and can capture key time dimensions (i.e. report date vs onset of symptoms); reduced burden of data entry compared to tracker and little complexity | Low complexity, easy to implement, most manageable when cases numbers are high |
@@ -27,27 +27,27 @@ The objectives of COVID-19 surveillance are:
 3. provide epidemiological information to conduct risk assessments at the national, regional and global level; and
 4. provide epidemiological information to guide preparedness and response measures.
 
-The system design builds upon existing case-based disease surveillance principles and information system requirements that have been developed collaboratively between the WHO and UiO since 2017. The COVID-19 surveillance package was developed with the intent to align to [WHO technical guidance on nCoV-19 surveillance and case definitions][2], updated March 20, 2020. Note that this design may not necessarily reflect the latest available interim global guidance developed by WHO as updates may be released rapidly. National guidelines and policies may vary and it is recommended to adapt this package to local context.
+The system design builds upon existing case disease surveillance principles and information system requirements that have been developed collaboratively between the WHO and UiO since 2017. The COVID-19 surveillance package was developed with the intent to align to [WHO technical guidance on nCoV-19 surveillance and case definitions][2], updated March 20, 2020. Note that this design may not necessarily reflect the latest available interim global guidance developed by WHO as updates may be released rapidly. National guidelines and policies may vary and it is recommended to adapt this package to local context.
 
 ## System Design Summary
 
-The DHIS2 case-based surveillance tracker metadata was based on the **[WHO COVID-19 case reporting template][3]** and the mapping of data dictionaries can be accessed at: [DHIS2 CBS tracker metadata WHO line-list data dictionary][4].
+The DHIS2 case surveillance tracker metadata was based on the **[WHO COVID-19 case reporting template][3]** and the mapping of data dictionaries can be accessed at: [DHIS2 CBS tracker metadata WHO line-list data dictionary][4].
 
 In the development of this configuration package, an effort has been made to follow UiO’s [general design principles][5] and a common [naming convention][6].
 
 The COVID-19 digital data package supports surveillance workflows and automated analysis for key components of routine and active surveillance. This package includes a Case Surveillance Tracker and Contact registration & follow-up tracker, which are installed together in the same metadata package. The tracker programs are optimized to be installed with other COVID-19 surveillance packages, including the Points of Entry Screening Tracker and aggregate daily surveillance dataset.
 
-1. **[Use Case 1: COVID-19 Case-based surveillance tracker][7]**: enrols & tracks suspected cases; captures symptoms, demographics, risk factors & exposures; creates lab requests; links confirmed cases with contacts; and monitors patient outcomes. This package can be installed as a standalone COVID-19 package or can be integrated into a country’s existing integrated disease surveillance & response tracker. Metadata for the case-based surveillance tracker is aligned with the WHO [COVID-19 surveillance data dictionary][8]
+1. **[Use Case 1: COVID-19 Case surveillance tracker][7]**: enrols & tracks suspected cases; captures symptoms, demographics, risk factors & exposures; creates lab requests; links confirmed cases with contacts; and monitors patient outcomes. This package can be installed as a standalone COVID-19 package or can be integrated into a country’s existing integrated disease surveillance & response tracker. Metadata for the case surveillance tracker is aligned with the WHO [COVID-19 surveillance data dictionary][8]
 
-    > n.b. The COVID-19 case-based tracker can be implemented either as a ‘standalone’ program for COVID-19 specific disease surveillance as described here; or, COVID-19 concepts can be integrated into an existing case-based surveillance tracker program if one already exists in-country. Please refer to installation and implementation guidance for more details.
+    > n.b. The COVID-19 case tracker can be implemented either as a ‘standalone’ program for COVID-19 specific disease surveillance as described here; or, COVID-19 concepts can be integrated into an existing case surveillance tracker program if one already exists in-country. Please refer to installation and implementation guidance for more details.
 
 1. **[Use Case 2: Contact registration & follow-up][9]**: strengthens active case detection through contact tracing activities, such as identification and follow-up of contacts of a suspected or confirmed COVID-19 case.
 
 Digital data packages are optimized for Android data collection with the DHIS2 Capture App, free to download on the [Google Play store][10].
 
-## Use Case 1: COVID-19 Case-based surveillance tracker
+## Use Case 1: COVID-19 Case surveillance tracker
 
-The COVID-19 case-based surveillance tracker can be adapted and used by countries to supplement existing national disease surveillance programs. The basic case surveillance program is designed to:
+The COVID-19 case surveillance tracker can be adapted and used by countries to supplement existing national disease surveillance programs. The basic case surveillance program is designed to:
 
 1. Enroll suspected\* COVID-19 cases (*generally appearing at a health facility, but may be enrolled at other places*)
 2. Capture key information about the suspected case including demographics and exposures, such as symptoms, contact with a previously confirmed case & travel history
@@ -58,7 +58,7 @@ The COVID-19 case-based surveillance tracker can be adapted and used by countrie
 7. Facilitate case notification and national/regional/global case reporting
 8. Generate dashboards and analytics tools for monitoring disease trends and planning response efforts
 
-The design of the case-based tracker program assumes that [WHO case definitions][1] are followed in the use case; its use can be adapted to local case definitions as needed. The WHO case definitions were updated on March 20, 2020 and noted below.
+The design of the case tracker program assumes that [WHO case definitions][1] are followed in the use case; its use can be adapted to local case definitions as needed. The WHO case definitions were updated on March 20, 2020 and noted below.
 
 > \* Suspected case: A) a patient with acute respiratory illness (fever and at least one sign/symptom of respiratory disease (e.g., cough, shortness of breath), AND with no other aetiology that fully explains the clinical presentation AND a history of travel to or residence in a country/area or territory reporting local transmission of COVID-19 disease during the 14 days prior to symptom onset; **OR**, B) A patient with any acute respiratory illness AND having been in contact with a confirmed or probable COVID-19 case (see definition of contact) in the last 14 days prior to onset of symptoms; **OR,** C) A patient with severe acute respiratory infection (fever and at least one sign/symptom of respiratory disease (e.g., cough, shortness breath) AND requiring hospitalization AND with no other aetiology that fully explains the clinical presentation.
 >
@@ -66,15 +66,15 @@ The design of the case-based tracker program assumes that [WHO case definitions]
 >
 >\*\*\* Confirmed case: A person with laboratory confirmation of COVID-19 infection, irrespective of clinical signs and symptoms.
 
-### Intended users
+### Intended Users
 
 * Health facility users: capture and record details about a suspected case, including clinical symptoms & exposures; track lab results; record case outcome
 * Laboratory users: receive lab requests and record laboratory results for a particular suspected case
 * National and local health authorities: monitor and analyse disease surveillance data through dashboards and analytics tools to conduct risk assessments and plan response measures; generate reports for regional and global reporting
 
-### Workflow: COVID-19 Case-based Surveillance Tracker
+### Workflow: COVID-19 Case Surveillance Tracker
 
-![Workflow of the DHIS2 COVID-19 Case-based Surveillance Tracker](resources/images/sdd-tracker-v3-case1-workflow.png)
+![Workflow of the DHIS2 COVID-19 Case Surveillance Tracker](resources/images/sdd-tracker-v3-case1-workflow.png)
 
 ### Structure: COVID-19 Case Surveillance Tracker Program
 
@@ -90,7 +90,7 @@ The design of the case-based tracker program assumes that [WHO case definitions]
 | **Stage 3: Lab Results [repeatable]** | The Lab Results stage records the type and results from laboratory testing. It can be done directly at the lab or as secondary data entry. This stage is repeatable as samples for a given case may be tested multiple times (i.e. in the case of an inconclusive laboratory results, a new lab test can be conducted and results recorded). |
 | **Stage 4: Health Outcome** | The health outcome records the final outcome of the case: (recovered, not recovered, dead or unknown) including date of discharge or death as applicable. |
 
-#### Enrollment
+#### Enrollment Stage
 
 ![Enrollment](resources/images/sdd-tracker-v3-case1-enrollment.png)
 
@@ -122,9 +122,10 @@ The details of this section is hidden unless “Hospitalised” is marked as “
 
 ##### Section 5 - Exposure Risk
 
-This section is used to record exposures 
-1. The fields ***country, city and facility*** are hidden by program rules if the case is not a health care worker; 
-2. The fields for contact IDs are hidden by program rules if the case has not had contact with a confirmed case in 14 days.
+This section is used to record exposures
+
+   1. The fields ***country, city and facility*** are hidden by program rules if the case is not a health care worker;
+   2. The fields for contact IDs are hidden by program rules if the case has not had contact with a confirmed case in 14 days.
 
 A suspected case’s exposure to a *previously confirmed* case is distinct from prospective contact tracing in Program Stage 5.
 
@@ -148,7 +149,7 @@ A suspected case’s exposure to a *previously confirmed* case is distinct from 
 
 ### Program Rules: COVID19 Case Surveillance Tracker
 
-The following program rules have been configured. If a country has an existing case-based surveillance program and wishes to incorporate elements of the COVID-19 case-based tracker into their existing program, special attention must be paid to the configuration of program rules.
+The following program rules have been configured. If a country has an existing case surveillance program and wishes to incorporate elements of the COVID-19 case tracker into their existing program, special attention must be paid to the configuration of program rules.
 
 | Program Rule Name | Program Rule Description |
 |---|---|
@@ -204,7 +205,7 @@ From the data captured in the COVID-19 case surveillance program, we can calcula
 
 ## Use Case 2: COVID-19 Contact registration & follow-up
 
-This program can be used in addition to the case-based surveillance tracker to facilitate the registration and follow-up of contacts of a confirmed case. In this scenario, it is assumed that if any contacts of a confirmed case meet criteria for suspected case and are referred for testing, the case will be enrolled into the COVID-19 Case Surveillance tracker program.
+This program can be used in addition to the case surveillance tracker to facilitate the registration and follow-up of contacts of a confirmed case. In this scenario, it is assumed that if any contacts of a confirmed case meet criteria for suspected case and are referred for testing, the case will be enrolled into the COVID-19 Case Surveillance tracker program.
 
 The Contact registration & follow-up program registers each contact of a case (as described in COVID-19 Case Surveillance Use Case) as a new Tracked Entity Instance (person) and links them to the case in the COVID-19 Case Surveillance Program via a ‘relationship.’ It has a simple repeatable follow-up stage where symptoms and any follow-up undertaken can be registered.
 
@@ -275,7 +276,7 @@ You may also enroll them separately into the program. Once enrolled, you will be
 [4]: https://drive.google.com/open?id=1vigXHkP7L2hJ2lrZpdf9u4csQtppMH16
 [5]: https://docs.dhis2.org/en/topics/metadata/dhis2-who-digital-health-data-toolkit/general-design-principles-for-who-metadata-packages.html
 [6]: https://docs.dhis2.org/en/topics/metadata/dhis2-who-digital-health-data-toolkit/naming-conventions.html
-[7]: #use-case-1-covid-19-case-based-surveillance-tracker
+[7]: #use-case-1-covid-19-case-surveillance-tracker
 [8]: https://www.who.int/docs/default-source/coronaviruse/data-dictionary-covid-crf-v6.xlsx?sfvrsn=a7d4ef98_2
 [9]: #use-case-2-covid-19-Contact-registration-follow-up
 [10]: https://play.google.com/store/apps/details?id=com.dhis2&hl=en
