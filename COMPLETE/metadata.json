@@ -13506,51 +13506,7 @@
             "zeroIsSignificant": false
         }
     ],
-    "dataEntryForms": [
-        {
-            "attributeValues": [],
-            "externalAccess": false,
-            "favorite": false,
-            "format": 0,
-            "id": "fngW31SNj7p",
-            "name": "Stage 1 - Clinical examination and diagnosis",
-            "sharing": {
-                "external": false,
-                "userGroups": {},
-                "users": {}
-            },
-            "style": "NORMAL",
-            "translations": [
-                {
-                    "locale": "nb",
-                    "property": "NAME",
-                    "value": "Steg 1 - Klinisk undersøkelse og diagnosering"
-                },
-                {
-                    "locale": "pt",
-                    "property": "NAME",
-                    "value": "Estágio 1 - Exame clínico e diagnóstico"
-                },
-                {
-                    "locale": "fr",
-                    "property": "NAME",
-                    "value": "Stade 1 - Examen clinique et diagnostic"
-                },
-                {
-                    "locale": "ru",
-                    "property": "NAME",
-                    "value": "Этап 1 - клинический осмотр и диагноз"
-                },
-                {
-                    "locale": "es",
-                    "property": "NAME",
-                    "value": "Etapa 1 - Examen clinico y diagnositico"
-                }
-            ],
-            "userAccesses": [],
-            "userGroupAccesses": []
-        }
-    ],
+    "dataEntryForms": [],
     "dataSets": [],
     "documents": [],
     "eventCharts": [],
@@ -30230,7 +30186,7 @@
         "DHIS2Version": "2.37.7.1",
         "code": "C19_CS",
         "description": "COVID-19 Case Surveillance and Contact Tracing",
-        "lastUpdated": "20220918T225136",
+        "lastUpdated": "20220919T081328",
         "locale": "en",
         "name": "C19_CS_TRK_DHIS2.37.7.1-en",
         "type": "TRK",
@@ -48516,9 +48472,6 @@
             "attributeValues": [],
             "autoGenerateEvent": true,
             "blockEntryForm": false,
-            "dataEntryForm": {
-                "id": "fngW31SNj7p"
-            },
             "description": "Clinical examination and diagnosis covers the form sections Vaccination History and Clinical data, follow-up and treatment",
             "displayExecutionDateLabel": "Date of Consultation",
             "displayGenerateEventBox": false,
@@ -48527,7 +48480,7 @@
             "externalAccess": false,
             "favorite": false,
             "featureType": "POINT",
-            "formType": "CUSTOM",
+            "formType": "SECTION",
             "generatedByEnrollmentDate": true,
             "hideDueDate": true,
             "id": "LpWNjNGvCO5",
