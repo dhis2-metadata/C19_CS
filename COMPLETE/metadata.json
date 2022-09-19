@@ -1663,31 +1663,13 @@
             "code": "C19_CS_CTF",
             "dataElements": [
                 {
-                    "id": "e9ME9cqEGs4"
-                },
-                {
-                    "id": "Yh5KOJj8l7p"
-                },
-                {
-                    "id": "r9RNlMboD8b"
-                },
-                {
-                    "id": "FtUNwm4jop7"
-                },
-                {
                     "id": "YirYKgXDYwm"
                 },
                 {
                     "id": "eoNKIKEThg9"
                 },
                 {
-                    "id": "MTfb6fQM19m"
-                },
-                {
                     "id": "faqBMrWUluk"
-                },
-                {
-                    "id": "HATcDNsjyn7"
                 },
                 {
                     "id": "IrFWIj5ks2p"
@@ -1702,16 +1684,37 @@
                     "id": "guigSJl89Gc"
                 },
                 {
-                    "id": "iUEwXfg9CgD"
-                },
-                {
                     "id": "JGnHr6WI3AY"
                 },
                 {
-                    "id": "HahhmzRvwu8"
+                    "id": "s3eoonJ8OJb"
                 },
                 {
-                    "id": "s3eoonJ8OJb"
+                    "id": "SeKu9WMNh16"
+                },
+                {
+                    "id": "e9ME9cqEGs4"
+                },
+                {
+                    "id": "Yh5KOJj8l7p"
+                },
+                {
+                    "id": "r9RNlMboD8b"
+                },
+                {
+                    "id": "FtUNwm4jop7"
+                },
+                {
+                    "id": "MTfb6fQM19m"
+                },
+                {
+                    "id": "HATcDNsjyn7"
+                },
+                {
+                    "id": "iUEwXfg9CgD"
+                },
+                {
+                    "id": "HahhmzRvwu8"
                 },
                 {
                     "id": "fyzp8BpsPMl"
@@ -1721,9 +1724,6 @@
                 },
                 {
                     "id": "EWZcuvPOrJF"
-                },
-                {
-                    "id": "SeKu9WMNh16"
                 }
             ],
             "dimensionItem": "Xy7lsU7XDgN",
@@ -9969,10 +9969,10 @@
             "code": "SIGNSYMP_COUGH",
             "dataElementGroups": [
                 {
-                    "id": "Xy7lsU7XDgN"
+                    "id": "XQYhAWVo61V"
                 },
                 {
-                    "id": "XQYhAWVo61V"
+                    "id": "Xy7lsU7XDgN"
                 }
             ],
             "dataSetElements": [],
@@ -10397,10 +10397,10 @@
             "code": "SIGNSYMP_FEVER",
             "dataElementGroups": [
                 {
-                    "id": "Xy7lsU7XDgN"
+                    "id": "XQYhAWVo61V"
                 },
                 {
-                    "id": "XQYhAWVo61V"
+                    "id": "Xy7lsU7XDgN"
                 }
             ],
             "dataSetElements": [],
@@ -10830,10 +10830,10 @@
             "code": "PATCOURSE_ASYMP",
             "dataElementGroups": [
                 {
-                    "id": "Xy7lsU7XDgN"
+                    "id": "XQYhAWVo61V"
                 },
                 {
-                    "id": "XQYhAWVo61V"
+                    "id": "Xy7lsU7XDgN"
                 }
             ],
             "dataSetElements": [],
@@ -11109,10 +11109,10 @@
             "code": "SIGNSYMP_SHORTNESS_BREATH",
             "dataElementGroups": [
                 {
-                    "id": "Xy7lsU7XDgN"
+                    "id": "XQYhAWVo61V"
                 },
                 {
-                    "id": "XQYhAWVo61V"
+                    "id": "Xy7lsU7XDgN"
                 }
             ],
             "dataSetElements": [],
@@ -30186,7 +30186,7 @@
         "DHIS2Version": "2.36.12",
         "code": "C19_CS",
         "description": "COVID-19 Case Surveillance and Contact Tracing",
-        "lastUpdated": "20220919T092658",
+        "lastUpdated": "20220919T104915",
         "locale": "en",
         "name": "C19_CS_TRK_DHIS2.36.12-en",
         "type": "TRK",
@@ -44235,7 +44235,7 @@
         },
         {
             "attributeValues": [],
-            "data": "d2:yearsBetween(A{dateofbirth}, V{current_date})",
+            "data": "d2:yearsBetween(A{DATE_OF_BIRTH}, V{current_date})",
             "evaluationEnvironments": [
                 "WEB",
                 "ANDROID"
@@ -44452,7 +44452,7 @@
             "externalAccess": false,
             "favorite": false,
             "id": "HH7GbYuaEme",
-            "name": "casetravelhistory",
+            "name": "CASE_TRAVEL_HISTORY",
             "program": {
                 "id": "uYjxkTbwRNf"
             },
@@ -44475,7 +44475,7 @@
             "externalAccess": false,
             "favorite": false,
             "id": "s9U1HDjEida",
-            "name": "ContactExposedToConfirmedCase",
+            "name": "CONTACT_EXPOSED_TO_CONFIRMED_CASE",
             "program": {
                 "id": "DM9n1bUw8W8"
             },
@@ -44498,7 +44498,7 @@
             "externalAccess": false,
             "favorite": false,
             "id": "So95ttB0dEu",
-            "name": "contactsymptoms",
+            "name": "CONTACT_SYMPTOMS",
             "program": {
                 "id": "DM9n1bUw8W8"
             },
@@ -44521,7 +44521,7 @@
             "externalAccess": false,
             "favorite": false,
             "id": "TpvcpQ0ruL6",
-            "name": "contactwithconfirmedcases",
+            "name": "CONTACT_WITH_CONFIRMED_CASES",
             "program": {
                 "id": "uYjxkTbwRNf"
             },
@@ -44541,7 +44541,7 @@
             "externalAccess": false,
             "favorite": false,
             "id": "ozv0HatM9sm",
-            "name": "dateofbirth",
+            "name": "DATE_OF_BIRTH",
             "program": {
                 "id": "uYjxkTbwRNf"
             },
@@ -44564,7 +44564,7 @@
             "externalAccess": false,
             "favorite": false,
             "id": "uCcws1lEdJc",
-            "name": "dateofbirth",
+            "name": "DATE_OF_BIRTH",
             "program": {
                 "id": "DM9n1bUw8W8"
             },
@@ -44590,7 +44590,7 @@
             "externalAccess": false,
             "favorite": false,
             "id": "fY1NSX46WSi",
-            "name": "datespecimenreceived",
+            "name": "DATE_SPECIMEN_RECEIVED",
             "program": {
                 "id": "uYjxkTbwRNf"
             },
@@ -44616,7 +44616,7 @@
             "externalAccess": false,
             "favorite": false,
             "id": "TO9ibMC4b5h",
-            "name": "datespecimensent",
+            "name": "DATE_SPECIMEN_SENT",
             "program": {
                 "id": "uYjxkTbwRNf"
             },
@@ -44639,7 +44639,7 @@
             "externalAccess": false,
             "favorite": false,
             "id": "G6GqPT1aR90",
-            "name": "fever",
+            "name": "FEVER",
             "program": {
                 "id": "uYjxkTbwRNf"
             },
@@ -44662,7 +44662,7 @@
             "externalAccess": false,
             "favorite": false,
             "id": "Y6OMUD5icJf",
-            "name": "healthcareworker",
+            "name": "HEALTCARE_WORKER",
             "program": {
                 "id": "uYjxkTbwRNf"
             },
@@ -44685,7 +44685,7 @@
             "externalAccess": false,
             "favorite": false,
             "id": "cA3GuSrkSS6",
-            "name": "healthoutcome",
+            "name": "HEALTH_OUTCOME",
             "program": {
                 "id": "uYjxkTbwRNf"
             },
@@ -44708,7 +44708,7 @@
             "externalAccess": false,
             "favorite": false,
             "id": "QoqkT4oXPqO",
-            "name": "hospitalised",
+            "name": "HOSPITALISED",
             "program": {
                 "id": "uYjxkTbwRNf"
             },
@@ -44731,7 +44731,7 @@
             "externalAccess": false,
             "favorite": false,
             "id": "cBNWDb0Qvqf",
-            "name": "isolation",
+            "name": "ISOLATION",
             "program": {
                 "id": "uYjxkTbwRNf"
             },
@@ -44754,7 +44754,7 @@
             "externalAccess": false,
             "favorite": false,
             "id": "o1tpaqdCVAG",
-            "name": "pregnant",
+            "name": "PREGNANT",
             "program": {
                 "id": "uYjxkTbwRNf"
             },
@@ -44777,7 +44777,7 @@
             "externalAccess": false,
             "favorite": false,
             "id": "yt16Vz0Ev1A",
-            "name": "reasonfortesting",
+            "name": "REASON_FOR_TESTING",
             "program": {
                 "id": "uYjxkTbwRNf"
             },
@@ -44797,7 +44797,7 @@
             "externalAccess": false,
             "favorite": false,
             "id": "dO0qyw2MH2r",
-            "name": "sex",
+            "name": "SEX",
             "program": {
                 "id": "uYjxkTbwRNf"
             },
@@ -44823,7 +44823,7 @@
             "externalAccess": false,
             "favorite": false,
             "id": "zJHcA3mFZFl",
-            "name": "symptoms",
+            "name": "SYMPTOMS",
             "program": {
                 "id": "uYjxkTbwRNf"
             },
@@ -44846,7 +44846,7 @@
             "externalAccess": false,
             "favorite": false,
             "id": "etbaO21YRMk",
-            "name": "SymptomsDate",
+            "name": "SYMPTOMS_DATE",
             "program": {
                 "id": "uYjxkTbwRNf"
             },
@@ -44869,7 +44869,7 @@
             "externalAccess": false,
             "favorite": false,
             "id": "WethmnaeFca",
-            "name": "TestResult",
+            "name": "TEST_RESULT",
             "program": {
                 "id": "uYjxkTbwRNf"
             },
@@ -44892,7 +44892,7 @@
             "externalAccess": false,
             "favorite": false,
             "id": "OkIt6enfQAm",
-            "name": "TestResultPrevious",
+            "name": "TEST_RESULT_PREV",
             "program": {
                 "id": "uYjxkTbwRNf"
             },
@@ -44915,7 +44915,7 @@
             "externalAccess": false,
             "favorite": false,
             "id": "hYNg4WxlCLa",
-            "name": "underlyingcondition",
+            "name": "UNDERLYING_CONDITION",
             "program": {
                 "id": "uYjxkTbwRNf"
             },
@@ -44934,7 +44934,7 @@
     "programRules": [
         {
             "attributeValues": [],
-            "condition": "!d2:hasValue( #{SymptomsDate} )",
+            "condition": "!d2:hasValue( #{SYMPTOMS_DATE} )",
             "description": "Assign Enrollment date if no onset date is available",
             "externalAccess": false,
             "favorite": false,
@@ -44999,7 +44999,7 @@
         },
         {
             "attributeValues": [],
-            "condition": "d2:hasValue( #{SymptomsDate} )",
+            "condition": "d2:hasValue( #{SYMPTOMS_DATE} )",
             "description": "Assign Symptoms Onset Date if available",
             "externalAccess": false,
             "favorite": false,
@@ -45069,7 +45069,7 @@
         },
         {
             "attributeValues": [],
-            "condition": "d2:hasValue('dateofbirth')",
+            "condition": "d2:hasValue('DATE_OF_BIRTH')",
             "description": "Calculate and assign patient age in years",
             "externalAccess": false,
             "favorite": false,
@@ -45135,7 +45135,7 @@
         },
         {
             "attributeValues": [],
-            "condition": "d2:hasValue('dateofbirth')",
+            "condition": "d2:hasValue('DATE_OF_BIRTH')",
             "description": "Calculate and assign patient age in years",
             "externalAccess": false,
             "favorite": false,
@@ -45201,7 +45201,7 @@
         },
         {
             "attributeValues": [],
-            "condition": "d2:hasValue('dateofbirth')",
+            "condition": "d2:hasValue('DATE_OF_BIRTH')",
             "description": "Display patient age in years + days",
             "externalAccess": false,
             "favorite": false,
@@ -45267,7 +45267,7 @@
         },
         {
             "attributeValues": [],
-            "condition": "#{healthoutcome}  != 'DEATH'",
+            "condition": "#{HEALTH_OUTCOME}  != 'DEATH'",
             "description": "Hide 'Date of Death' unless Death is the Health outcome",
             "externalAccess": false,
             "favorite": false,
@@ -45331,7 +45331,7 @@
         },
         {
             "attributeValues": [],
-            "condition": "!d2:hasValue( 'healthoutcome' ) || #{healthoutcome}   == 'DEATH'",
+            "condition": "!d2:hasValue( 'HEALTH_OUTCOME' ) || #{HEALTH_OUTCOME}   == 'DEATH'",
             "description": "Hide 'Date of Discharge' if no outcome or outcome is death",
             "externalAccess": false,
             "favorite": false,
@@ -45395,7 +45395,7 @@
         },
         {
             "attributeValues": [],
-            "condition": "#{fever} != 'YES'",
+            "condition": "#{FEVER} != 'YES'",
             "description": "Hide 'Measured Temperature' field until Fever is selected",
             "externalAccess": false,
             "favorite": false,
@@ -45459,7 +45459,7 @@
         },
         {
             "attributeValues": [],
-            "condition": "#{contactwithconfirmedcases} != 'YES'",
+            "condition": "#{CONTACT_WITH_CONFIRMED_CASES} != 'YES'",
             "description": "Hide confirmed case ID's if no contact with other confirmed cases",
             "externalAccess": false,
             "favorite": false,
@@ -45476,10 +45476,10 @@
                     "id": "mmmis20MSMa"
                 },
                 {
-                    "id": "zsyxyPCIxJD"
+                    "id": "kzPIYcTtuf7"
                 },
                 {
-                    "id": "kzPIYcTtuf7"
+                    "id": "zsyxyPCIxJD"
                 },
                 {
                     "id": "yejY6jVY1p8"
@@ -45537,7 +45537,7 @@
         },
         {
             "attributeValues": [],
-            "condition": "#{ContactExposedToConfirmedCase} == 'YES' || #{ContactExposedToConfirmedCase} == ''",
+            "condition": "#{CONTACT_EXPOSED_TO_CONFIRMED_CASE} == 'YES' || #{CONTACT_EXPOSED_TO_CONFIRMED_CASE} == ''",
             "description": "Hide date of first and last exposure if exposed to confirmed case",
             "externalAccess": false,
             "favorite": false,
@@ -45606,7 +45606,7 @@
         },
         {
             "attributeValues": [],
-            "condition": "#{ContactExposedToConfirmedCase} == '' || #{ContactExposedToConfirmedCase} == 'No' || #{ContactExposedToConfirmedCase} == 'UNKNOWN'",
+            "condition": "#{CONTACT_EXPOSED_TO_CONFIRMED_CASE} == '' || #{CONTACT_EXPOSED_TO_CONFIRMED_CASE} == 'NO' || #{CONTACT_EXPOSED_TO_CONFIRMED_CASE} == 'UNKNOWN'",
             "description": "Hide date, exposures and type of contact if not exposed to confirmed case",
             "externalAccess": false,
             "favorite": false,
@@ -45678,7 +45678,7 @@
         },
         {
             "attributeValues": [],
-            "condition": "#{healthcareworker} != 'YES'",
+            "condition": "#{HEALTCARE_WORKER} != 'YES'",
             "description": "Hide health care worker details if not a health worker",
             "externalAccess": false,
             "favorite": false,
@@ -45750,7 +45750,7 @@
         },
         {
             "attributeValues": [],
-            "condition": "#{healthoutcome} != 'OTHER'",
+            "condition": "#{HEALTH_OUTCOME} != 'OTHER'",
             "description": "Hide health outcome explanation if health outcome is not other",
             "externalAccess": false,
             "favorite": false,
@@ -45819,7 +45819,7 @@
         },
         {
             "attributeValues": [],
-            "condition": "#{hospitalised} != 'YES'",
+            "condition": "#{HOSPITALISED} != 'YES'",
             "description": "Hide hospitalisation details if hospitalisation is no or unknown",
             "externalAccess": false,
             "favorite": false,
@@ -45903,7 +45903,7 @@
         },
         {
             "attributeValues": [],
-            "condition": "#{isolation} != 'YES'",
+            "condition": "#{ISOLATION} != 'YES'",
             "description": "Hide isolation date if case is not in isolation",
             "externalAccess": false,
             "favorite": false,
@@ -45969,7 +45969,7 @@
         },
         {
             "attributeValues": [],
-            "condition": "#{pregnant} != 'YES'",
+            "condition": "#{PREGNANT} != 'YES'",
             "description": "Hide pregnancy details for a female if not pregnant",
             "externalAccess": false,
             "favorite": false,
@@ -45983,10 +45983,10 @@
                     "id": "rljEHGfyJoc"
                 },
                 {
-                    "id": "mklqmNlBaFi"
+                    "id": "YX7NRlfnWUl"
                 },
                 {
-                    "id": "YX7NRlfnWUl"
+                    "id": "mklqmNlBaFi"
                 }
             ],
             "sharing": {
@@ -46041,7 +46041,7 @@
         },
         {
             "attributeValues": [],
-            "condition": "A{sex} == 'MALE'",
+            "condition": "A{SEX} == 'MALE'",
             "description": "Hide pregnancy details section if sex is male",
             "externalAccess": false,
             "favorite": false,
@@ -46107,7 +46107,7 @@
         },
         {
             "attributeValues": [],
-            "condition": "#{reasonfortesting} != ''",
+            "condition": "#{REASON_FOR_TESTING} != ''",
             "description": "Hide reason for testing explanation if an option is selected",
             "externalAccess": false,
             "favorite": false,
@@ -46176,7 +46176,7 @@
         },
         {
             "attributeValues": [],
-            "condition": "#{symptoms} != 'YES'",
+            "condition": "#{SYMPTOMS} != 'YES'",
             "externalAccess": false,
             "favorite": false,
             "id": "SFobDfjXf8j",
@@ -46189,13 +46189,13 @@
                     "id": "zIN6UNUH71t"
                 },
                 {
+                    "id": "Wq1XfbUmR39"
+                },
+                {
                     "id": "Rn2qGCeXF3R"
                 },
                 {
                     "id": "LfDB3qsy8gU"
-                },
-                {
-                    "id": "Wq1XfbUmR39"
                 }
             ],
             "sharing": {
@@ -46230,7 +46230,7 @@
         },
         {
             "attributeValues": [],
-            "condition": "#{contactsymptoms} != 'YES'",
+            "condition": "#{CONTACT_SYMPTOMS} != 'YES'",
             "description": "Hide symptoms section if no symptoms present",
             "externalAccess": false,
             "favorite": false,
@@ -46286,7 +46286,7 @@
         },
         {
             "attributeValues": [],
-            "condition": "#{casetravelhistory} != 'YES'",
+            "condition": "#{CASE_TRAVEL_HISTORY} != 'YES'",
             "description": "Hide travel history details if no travel 14 days prior to symptom onset",
             "externalAccess": false,
             "favorite": false,
@@ -46358,7 +46358,7 @@
         },
         {
             "attributeValues": [],
-            "condition": "#{underlyingcondition} != 'YES'",
+            "condition": "#{UNDERLYING_CONDITION} != 'YES'",
             "description": "Hide underlying conditions if case does not have any",
             "externalAccess": false,
             "favorite": false,
@@ -51608,15 +51608,6 @@
             ],
             "programRuleVariables": [
                 {
-                    "id": "OkIt6enfQAm"
-                },
-                {
-                    "id": "TO9ibMC4b5h"
-                },
-                {
-                    "id": "hYNg4WxlCLa"
-                },
-                {
                     "id": "o1tpaqdCVAG"
                 },
                 {
@@ -51626,31 +51617,10 @@
                     "id": "cBNWDb0Qvqf"
                 },
                 {
-                    "id": "cA3GuSrkSS6"
-                },
-                {
-                    "id": "Y6OMUD5icJf"
-                },
-                {
-                    "id": "G6GqPT1aR90"
-                },
-                {
-                    "id": "WethmnaeFca"
-                },
-                {
                     "id": "ozv0HatM9sm"
                 },
                 {
-                    "id": "etbaO21YRMk"
-                },
-                {
-                    "id": "QoqkT4oXPqO"
-                },
-                {
-                    "id": "dO0qyw2MH2r"
-                },
-                {
-                    "id": "yt16Vz0Ev1A"
+                    "id": "zJHcA3mFZFl"
                 },
                 {
                     "id": "HH7GbYuaEme"
@@ -51659,7 +51629,37 @@
                     "id": "fY1NSX46WSi"
                 },
                 {
-                    "id": "zJHcA3mFZFl"
+                    "id": "yt16Vz0Ev1A"
+                },
+                {
+                    "id": "etbaO21YRMk"
+                },
+                {
+                    "id": "Y6OMUD5icJf"
+                },
+                {
+                    "id": "hYNg4WxlCLa"
+                },
+                {
+                    "id": "QoqkT4oXPqO"
+                },
+                {
+                    "id": "WethmnaeFca"
+                },
+                {
+                    "id": "dO0qyw2MH2r"
+                },
+                {
+                    "id": "TO9ibMC4b5h"
+                },
+                {
+                    "id": "G6GqPT1aR90"
+                },
+                {
+                    "id": "cA3GuSrkSS6"
+                },
+                {
+                    "id": "OkIt6enfQAm"
                 }
             ],
             "programSections": [],
@@ -52201,13 +52201,13 @@
             "programIndicators": [],
             "programRuleVariables": [
                 {
-                    "id": "So95ttB0dEu"
+                    "id": "s9U1HDjEida"
                 },
                 {
                     "id": "uCcws1lEdJc"
                 },
                 {
-                    "id": "s9U1HDjEida"
+                    "id": "So95ttB0dEu"
                 }
             ],
             "programSections": [],
