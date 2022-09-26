@@ -30186,7 +30186,7 @@
         "DHIS2Version": "2.37.7.1",
         "code": "C19_CS",
         "description": "COVID-19 Case Surveillance and Contact Tracing",
-        "lastUpdated": "20220919T104915",
+        "lastUpdated": "20220925T225044",
         "locale": "en",
         "name": "C19_CS_TRK_DHIS2.37.7.1-en",
         "type": "TRK",
@@ -30707,13 +30707,13 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "ze9iEonH2hw",
+                    "id": "YAeXWtLd8wr",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -30724,13 +30724,13 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "YAeXWtLd8wr",
+                    "id": "ze9iEonH2hw",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -30911,13 +30911,13 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "R51Bw5NkT8V",
+                    "id": "GQtN8Kv9OkJ",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -30928,13 +30928,13 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "GQtN8Kv9OkJ",
+                    "id": "R51Bw5NkT8V",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -31115,13 +31115,13 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "ROVCKBntr5Y",
+                    "id": "Yv89K5QIRj1",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -31132,13 +31132,13 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "Yv89K5QIRj1",
+                    "id": "ROVCKBntr5Y",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -31360,13 +31360,13 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "lfYM2r5pnB2",
+                    "id": "aTKmS3M5Uy7",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -31377,13 +31377,13 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "aTKmS3M5Uy7",
+                    "id": "lfYM2r5pnB2",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -31564,13 +31564,13 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "j6tIrzfGxCO",
+                    "id": "j06gH8uzXQZ",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -31581,13 +31581,13 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "j06gH8uzXQZ",
+                    "id": "j6tIrzfGxCO",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -31768,13 +31768,13 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "LF23fXPnb8Y",
+                    "id": "K5fUdcXJhhl",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -31785,13 +31785,13 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "K5fUdcXJhhl",
+                    "id": "LF23fXPnb8Y",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -32013,13 +32013,13 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "axqDfRlTzA4",
+                    "id": "KcuCFkZoijV",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -32030,13 +32030,13 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "KcuCFkZoijV",
+                    "id": "axqDfRlTzA4",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -32217,13 +32217,13 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "Lz5fXDRT3Sq",
+                    "id": "M0x1WCc2Bpa",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -32234,13 +32234,13 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "M0x1WCc2Bpa",
+                    "id": "Lz5fXDRT3Sq",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -32421,13 +32421,13 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "YqPo6ZBQucW",
+                    "id": "UCSJB0W14cc",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -32438,13 +32438,13 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "UCSJB0W14cc",
+                    "id": "YqPo6ZBQucW",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -32625,13 +32625,13 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "SzzShKIw2f9",
+                    "id": "XpSV2XQOKsU",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -32642,13 +32642,13 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "XpSV2XQOKsU",
+                    "id": "SzzShKIw2f9",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -32864,13 +32864,13 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "kN0Iedwgpfl",
+                    "id": "s83SRzF6K2a",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -32881,13 +32881,13 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "s83SRzF6K2a",
+                    "id": "kN0Iedwgpfl",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -33138,13 +33138,13 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "hmUHaQgZ9ek",
+                    "id": "qADyPfRwAHw",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -33155,13 +33155,13 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "qADyPfRwAHw",
+                    "id": "hmUHaQgZ9ek",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -33377,13 +33377,13 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "p3DW0y20cUk",
+                    "id": "KSI5midj5Zf",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -33394,13 +33394,13 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "KSI5midj5Zf",
+                    "id": "p3DW0y20cUk",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -33581,13 +33581,13 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "t4zHQUg2CFu",
+                    "id": "p6JSfc4o0Pc",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -33598,13 +33598,13 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "p6JSfc4o0Pc",
+                    "id": "t4zHQUg2CFu",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -33785,13 +33785,13 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "EqMzXFgmklb",
+                    "id": "oGSJSbrFdH1",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -33802,13 +33802,13 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "oGSJSbrFdH1",
+                    "id": "EqMzXFgmklb",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -33989,13 +33989,13 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "TKH2FfIAKpr",
+                    "id": "sNrC4OGQaIx",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -34006,13 +34006,13 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "sNrC4OGQaIx",
+                    "id": "TKH2FfIAKpr",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -34193,13 +34193,13 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "tR2kCJSuACE",
+                    "id": "BctFtYVKFN9",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -34210,13 +34210,13 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "BctFtYVKFN9",
+                    "id": "tR2kCJSuACE",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -34397,13 +34397,13 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "nIvet0haxI8",
+                    "id": "aSKfWW83qgV",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -34414,13 +34414,13 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "aSKfWW83qgV",
+                    "id": "nIvet0haxI8",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -34601,13 +34601,13 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "YBaRI8bT7nT",
+                    "id": "QeOEFDngdcL",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -34618,13 +34618,13 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "QeOEFDngdcL",
+                    "id": "YBaRI8bT7nT",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -34805,13 +34805,13 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "mGYYxHa460X",
+                    "id": "whHfiF804jk",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -34822,13 +34822,13 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "whHfiF804jk",
+                    "id": "mGYYxHa460X",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -35014,13 +35014,13 @@
             "aggregationType": "AVERAGE",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "DJcsybc6xta",
+                    "id": "HBhp6mRvyrU",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -35031,13 +35031,13 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "HBhp6mRvyrU",
+                    "id": "DJcsybc6xta",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -38792,13 +38792,13 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "i539Ky2424G",
+                    "id": "j7beWeP6BZ4",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -38809,13 +38809,13 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "j7beWeP6BZ4",
+                    "id": "i539Ky2424G",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -42251,13 +42251,13 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "#{dDHkBd3X8Ce.Cl2I1H6Y3oj}",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "ehSED4pe6gK",
+                    "id": "VUlCXVaaRqj",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -42268,13 +42268,13 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "#{dDHkBd3X8Ce.Cl2I1H6Y3oj}",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "VUlCXVaaRqj",
+                    "id": "ehSED4pe6gK",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -42388,13 +42388,13 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "#{dDHkBd3X8Ce.Cl2I1H6Y3oj}",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "D6inrMeY1Lq",
+                    "id": "FxThUeyrJla",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -42405,13 +42405,13 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "#{dDHkBd3X8Ce.Cl2I1H6Y3oj}",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "FxThUeyrJla",
+                    "id": "D6inrMeY1Lq",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -42536,13 +42536,13 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "#{dDHkBd3X8Ce.Cl2I1H6Y3oj}",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "buCCjj2ATG2",
+                    "id": "VxJ1EaJm7Sk",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -42553,13 +42553,13 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "#{dDHkBd3X8Ce.Cl2I1H6Y3oj}",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "VxJ1EaJm7Sk",
+                    "id": "buCCjj2ATG2",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -42694,13 +42694,13 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "EVENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "OgnDioBd2gf",
+                    "id": "ruEvGh6ySek",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -42711,13 +42711,13 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "EVENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "ruEvGh6ySek",
+                    "id": "OgnDioBd2gf",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -42816,13 +42816,13 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "pOL7E78qI5m",
+                    "id": "bMCe61tgdaX",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -42833,13 +42833,13 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "bMCe61tgdaX",
+                    "id": "pOL7E78qI5m",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -42888,13 +42888,13 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "PmJ3wD7oVvq",
+                    "id": "GGK3vVchMyM",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -42905,13 +42905,13 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "GGK3vVchMyM",
+                    "id": "PmJ3wD7oVvq",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -42960,13 +42960,13 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "v4e27B4K3Bm",
+                    "id": "tH8q2aEpPG0",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -42977,13 +42977,13 @@
                     "userGroupAccesses": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "tH8q2aEpPG0",
+                    "id": "v4e27B4K3Bm",
                     "sharing": {
                         "external": false,
                         "userGroups": {},
@@ -43036,8 +43036,8 @@
                 "id": "BH5SRLl5PfH"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -43059,8 +43059,8 @@
         {
             "attributeValues": [],
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -43091,8 +43091,8 @@
                 "id": "wvSTTknCxfK"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -43117,8 +43117,8 @@
                 "id": "JTWKiQeBrPE"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -43143,8 +43143,8 @@
                 "id": "nFNHFgtt2eG"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -43169,8 +43169,8 @@
                 "id": "NfVnTwRBCeK"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -43195,8 +43195,8 @@
                 "id": "OVp375JPJvW"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -43221,8 +43221,8 @@
                 "id": "IGQdwCEWqxs"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -43247,8 +43247,8 @@
                 "id": "oomj0HzoQB5"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -43273,8 +43273,8 @@
                 "id": "HATcDNsjyn7"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -43299,8 +43299,8 @@
                 "id": "jGh3SzagmVu"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -43325,8 +43325,8 @@
                 "id": "p8htbyJHydl"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -43351,8 +43351,8 @@
                 "id": "Uk324Xilsie"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -43377,8 +43377,8 @@
                 "id": "guigSJl89Gc"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -43403,8 +43403,8 @@
                 "id": "dDEdmn8q3P1"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -43427,8 +43427,8 @@
             "attributeValues": [],
             "data": "d2:yearsBetween(A{dateofbirth}, V{current_date})",
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -43456,8 +43456,8 @@
                 "id": "IzhvQr5NNzr"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -43482,8 +43482,8 @@
                 "id": "SBRCbEvwCjZ"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -43508,8 +43508,8 @@
                 "id": "s3eoonJ8OJb"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -43534,8 +43534,8 @@
                 "id": "YyrtNZL59vO"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -43560,8 +43560,8 @@
                 "id": "GoF3NCp03q1"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -43586,8 +43586,8 @@
                 "id": "TR4Yv88i1hy"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -43612,8 +43612,8 @@
                 "id": "RkcAjhjgqp3"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -43639,8 +43639,8 @@
                 "id": "PFXeJV8d7ja"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -43665,8 +43665,8 @@
                 "id": "cdqK3q8WDQI"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -43691,8 +43691,8 @@
                 "id": "MTfb6fQM19m"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -43717,8 +43717,8 @@
                 "id": "BGIl7Un4Far"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -43743,8 +43743,8 @@
                 "id": "UmXYz5bN9is"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -43769,8 +43769,8 @@
                 "id": "IliCwhlgfJq"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -43795,8 +43795,8 @@
                 "id": "HM8BPaL8Bbj"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -43821,8 +43821,8 @@
                 "id": "Yh5KOJj8l7p"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -43847,8 +43847,8 @@
                 "id": "TMwKRNAYuYB"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -43873,8 +43873,8 @@
                 "id": "mW7DtDdQBv3"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -43899,8 +43899,8 @@
                 "id": "uNNfUKaj0gY"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -43924,8 +43924,8 @@
             "content": "Please ensure that the date you have entered for this event is correct.",
             "displayContent": "Please ensure that the date you have entered for this event is correct.",
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -43950,8 +43950,8 @@
                 "id": "hcHUkwpjcDc"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -43976,8 +43976,8 @@
                 "id": "arPkmfgnHgW"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -44002,8 +44002,8 @@
             "data": "#{labdiag}",
             "displayContent": "Lab Confirmed Diagnosis: ",
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -44026,8 +44026,8 @@
         {
             "attributeValues": [],
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -44056,8 +44056,8 @@
                 "id": "PFXeJV8d7ja"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -44082,8 +44082,8 @@
                 "id": "coUb4QcuVKI"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -44108,8 +44108,8 @@
                 "id": "ydGFd0reFgT"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -44134,8 +44134,8 @@
                 "id": "oPEL0yUsFJ6"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -44160,8 +44160,8 @@
                 "id": "IdFN1KdIHO1"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -44186,8 +44186,8 @@
                 "id": "EWZcuvPOrJF"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -44212,8 +44212,8 @@
             "data": "d2:concatenate(d2:yearsBetween(A{dateofbirth}, V{current_date}),' ','years',' ','+',' ', d2:modulus(d2:daysBetween(A{dateofbirth}, V{current_date}), 365),' ','days')",
             "displayContent": "Patient's Age",
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -44237,8 +44237,8 @@
             "attributeValues": [],
             "data": "d2:yearsBetween(A{DATE_OF_BIRTH}, V{current_date})",
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -44266,8 +44266,8 @@
                 "id": "f7hWVw8d8cU"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -44292,8 +44292,8 @@
                 "id": "jYMvZlnhfVd"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -44318,8 +44318,8 @@
                 "id": "faqBMrWUluk"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -44344,8 +44344,8 @@
                 "id": "XlNVazI32rG"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -44370,8 +44370,8 @@
                 "id": "fyzp8BpsPMl"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -44396,8 +44396,8 @@
                 "id": "j6LrBVzW3k4"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
@@ -44422,8 +44422,8 @@
                 "id": "PpMq8T5hNXy"
             },
             "evaluationEnvironments": [
-                "WEB",
-                "ANDROID"
+                "ANDROID",
+                "WEB"
             ],
             "evaluationTime": "ALWAYS",
             "externalAccess": false,
