@@ -1663,13 +1663,31 @@
             "code": "C19_CS_CTF",
             "dataElements": [
                 {
+                    "id": "e9ME9cqEGs4"
+                },
+                {
+                    "id": "Yh5KOJj8l7p"
+                },
+                {
+                    "id": "r9RNlMboD8b"
+                },
+                {
+                    "id": "FtUNwm4jop7"
+                },
+                {
                     "id": "YirYKgXDYwm"
                 },
                 {
                     "id": "eoNKIKEThg9"
                 },
                 {
+                    "id": "MTfb6fQM19m"
+                },
+                {
                     "id": "faqBMrWUluk"
+                },
+                {
+                    "id": "HATcDNsjyn7"
                 },
                 {
                     "id": "IrFWIj5ks2p"
@@ -1684,37 +1702,16 @@
                     "id": "guigSJl89Gc"
                 },
                 {
-                    "id": "JGnHr6WI3AY"
-                },
-                {
-                    "id": "s3eoonJ8OJb"
-                },
-                {
-                    "id": "SeKu9WMNh16"
-                },
-                {
-                    "id": "e9ME9cqEGs4"
-                },
-                {
-                    "id": "Yh5KOJj8l7p"
-                },
-                {
-                    "id": "r9RNlMboD8b"
-                },
-                {
-                    "id": "FtUNwm4jop7"
-                },
-                {
-                    "id": "MTfb6fQM19m"
-                },
-                {
-                    "id": "HATcDNsjyn7"
-                },
-                {
                     "id": "iUEwXfg9CgD"
                 },
                 {
+                    "id": "JGnHr6WI3AY"
+                },
+                {
                     "id": "HahhmzRvwu8"
+                },
+                {
+                    "id": "s3eoonJ8OJb"
                 },
                 {
                     "id": "fyzp8BpsPMl"
@@ -1724,6 +1721,9 @@
                 },
                 {
                     "id": "EWZcuvPOrJF"
+                },
+                {
+                    "id": "SeKu9WMNh16"
                 }
             ],
             "dimensionItem": "Xy7lsU7XDgN",
@@ -14116,25 +14116,6 @@
                 },
                 {
                     "attributeValues": [],
-                    "color": "#9ecae1",
-                    "endValue": 45.0,
-                    "externalAccess": false,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "XTmLeJHmd3m",
-                    "name": "35 - 44",
-                    "sharing": {
-                        "external": false,
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "startValue": 35.0,
-                    "translations": [],
-                    "userAccesses": [],
-                    "userGroupAccesses": []
-                },
-                {
-                    "attributeValues": [],
                     "color": "#08519c",
                     "endValue": 85.0,
                     "externalAccess": false,
@@ -14173,25 +14154,6 @@
                 },
                 {
                     "attributeValues": [],
-                    "color": "#deebf7",
-                    "endValue": 25.0,
-                    "externalAccess": false,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "evLlhbRsG6e",
-                    "name": "15 - 24",
-                    "sharing": {
-                        "external": false,
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "startValue": 15.0,
-                    "translations": [],
-                    "userAccesses": [],
-                    "userGroupAccesses": []
-                },
-                {
-                    "attributeValues": [],
                     "color": "#FFFFFF",
                     "endValue": 5.0,
                     "externalAccess": false,
@@ -14224,6 +14186,44 @@
                         "users": {}
                     },
                     "startValue": 85.0,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "attributeValues": [],
+                    "color": "#9ecae1",
+                    "endValue": 45.0,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "XTmLeJHmd3m",
+                    "name": "35 - 44",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "startValue": 35.0,
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "attributeValues": [],
+                    "color": "#deebf7",
+                    "endValue": 25.0,
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "evLlhbRsG6e",
+                    "name": "15 - 24",
+                    "sharing": {
+                        "external": false,
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "startValue": 15.0,
                     "translations": [],
                     "userAccesses": [],
                     "userGroupAccesses": []
@@ -30186,7 +30186,7 @@
         "DHIS2Version": "2.36.12",
         "code": "C19_CS",
         "description": "COVID-19 Case Surveillance and Contact Tracing",
-        "lastUpdated": "20220919T104915",
+        "lastUpdated": "20220926T153202",
         "locale": "en",
         "name": "C19_CS_TRK_DHIS2.36.12-en",
         "type": "TRK",
@@ -45983,10 +45983,10 @@
                     "id": "rljEHGfyJoc"
                 },
                 {
-                    "id": "YX7NRlfnWUl"
+                    "id": "mklqmNlBaFi"
                 },
                 {
-                    "id": "mklqmNlBaFi"
+                    "id": "YX7NRlfnWUl"
                 }
             ],
             "sharing": {
@@ -46189,13 +46189,13 @@
                     "id": "zIN6UNUH71t"
                 },
                 {
-                    "id": "Wq1XfbUmR39"
-                },
-                {
                     "id": "Rn2qGCeXF3R"
                 },
                 {
                     "id": "LfDB3qsy8gU"
+                },
+                {
+                    "id": "Wq1XfbUmR39"
                 }
             ],
             "sharing": {
