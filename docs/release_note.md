@@ -1,6 +1,8 @@
-# Package Release Note
+# Release Note
 
-## Overview
+## 1.0.2
+
+### Overview
 
 We have made several updates to the existing package to align with new COVID-19 [surveillance guidelines released by the WHO on March 20, 2020](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/surveillance-and-case-definitions) and introduced new components to the overall package of support. Please review the notes here and contact us on the COVID-19 discussion board in the [community of practice](https://community.dhis2.org/c/implementation/covid-19/) with any questions.
 
@@ -15,7 +17,7 @@ The new release includes:
 3. COVID-19 Aggregate Surveillance Reporting (v2.0.1) 
 4. Points of Entry Screening Tracker program (v1.0.0) [***DISCONTINUED***]
 
-## COVID-19 Case Surveillance Tracker
+### COVID-19 Case Surveillance Tracker
 
 1. Metadata codes updated to align with the [WHO case-based reporting data dictionary](https://www.who.int/docs/default-source/coronaviruse/2020-02-27-data-dictionary-en.xlsx)
 2. Program indicators updated to reflect new WHO case definitions for probable cases (reference the updated case definitions in the interim surveillance guidelines updated March 20, 2020 [WHO interim surveillance guidelines updated March 20, 2020](https://apps.who.int/iris/bitstream/handle/10665/331506/WHO-2019-nCoV-SurveillanceGuidance-2020.6-eng.pdf))
@@ -23,14 +25,14 @@ The new release includes:
 4. relationshipType added to metadata package
 5. Minor fixes to the metadata to enable easier installation of the package (i.e. indicatorType UID matches indicator type included in aggregate package)
 
-## COVID-19 Contact Registration & Follow-up Tracker
+### COVID-19 Contact Registration & Follow-up Tracker
 
 1. A new program stage has been added to enable repeatable ‘follow-up’ of a case contact. This was added to reflect workflows implemented in Uganda and Togo where contacts may be monitored repeatedly over the course of 14 days to determine if there are symptoms. The ***program*** is based on WHO guidelines which can be found [here](https://www.who.int/internal-publications-detail/considerations-in-the-investigation-of-cases-and-clusters-of-covid-19), as well as information obtained via the [OpenWHO](https://openwho.org/courses/introduction-to-ncov) website.
 2. Age legends have been updated to meet new WHO guidance for weekly reporting
 3. relationshipType added to metadata package
 4. Minor fixes to the metadata to enable easier installation of the package
 
-## COVID-19 Aggregate Surveillance Reporting
+### COVID-19 Aggregate Surveillance Reporting
 
 The following updates were made to reflect new guidance in [WHO guidelines updated March 20, 2020](https://apps.who.int/iris/bitstream/handle/10665/331506/WHO-2019-nCoV-SurveillanceGuidance-2020.6-eng.pdf), including updated global aggregate reporting to WHO (weekly & daily)
 
@@ -39,7 +41,7 @@ The following updates were made to reflect new guidance in [WHO guidelines updat
 3. New weekly dataset to capture classification of transmission at sub-national level one (i.e. provincial -- can be assigned to any sub-national level as appropriate in country) per updated WHO weekly reporting guidelines
 4. Minor fixes to the metadata to enable easier installation of the package
 
-## Points of Entry Tracker [***DISCONTINUED***]
+### Points of Entry Tracker [***DISCONTINUED***]
 
 The Points of Entry tracker program use case was designed to support the registration of travellers entering a country with a history of travel to, or residence in, a country/area/territory reporting local transmission of COVID-19 who may need to be followed up to ensure no symptoms develop. It is based on the design implemented by HISP Sri Lanka to support the Sri Lanka Ministry of Health with minor changes to make the program more generic to global use and to align with the other tracker programs in the COVID-19 package. The package supports interventions at Points of Entry detailed in the WHO [technical guidance for the management of ill persons at points of entry](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/points-of-entry-and-mass-gatherings).
 
