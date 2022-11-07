@@ -1,25 +1,8 @@
-# COVID-19 Surveillance Digital Data Package
-
-DHIS2 has released a digital data package to accelerate case detection, situation reporting, active surveillance and response for COVID-19. The package is inspired by the Ministry of Health Sri Lanka’s pioneering design of DHIS2 tracker for COVID-19 case detection and draws on years of collaboration with the World Health Organisation (WHO) to develop information system standards for case-based disease surveillance. The COVID-19 digital data package includes standard metadata aligned with the WHO’s [technical guidance on COVID-19 surveillance and case definitions](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/surveillance-and-case-definitions) and implementation guidance to enable rapid deployment in countries.
-
-DHIS2 is currently being used for COVID-19 Surveillance in countries around the world. Explore the map below to see where the DHIS2 COVID-19 Packages are being tested and deployed..
-
-## What can the DHIS2 COVID-19 Surveillance Package be used for?
-
-The package supports surveillance workflows and automated analysis for key components of routine and active surveillance:
-
-* **COVID-19 Case Surveillance tracker**: enrols & tracks suspected cases; captures symptoms, demographics, risk factors & exposures; creates lab requests; links confirmed cases with contacts; and monitors patient outcomes. This package can be installed as a standalone COVID-19 package or can be integrated into a country’s existing integrated disease surveillance & response tracker.
-* **Contact Registration & Follow-up tracker**: strengthens active case detection through contact tracing activities, such as identification and follow-up of contacts of a suspected or confirmed COVID-19 case.
-* [***DISCONTINUED***] **Ports of Entry Screening & Follow-up tracker**: enrols travellers who have visited high-risk locations at Ports of Entry for 14-day monitoring and follow-up.
-* **COVID-19 Aggregate Surveillance**: an aggregate reporting dataset that captures minimum necessary data points for daily or weekly reporting
-
-All digital data packages are optimized for Android data collection with the DHIS2 Capture App, which is free to download on the [Google Play store](https://play.google.com/store/apps/details?id=com.dhis2&hl=en).
-
-Do you work in a country that is interested in installing the DHIS2 COVID-19 tracker? Please contact us at [post@dhis2.org](mailto:post@dhis2.org).
+# COVID-19 Case Surveillance
 
 ## Design
 
-### Version 1.0.2
+[Version 1.0.2](#c19-cs-design)
 
 ## Installation
 
@@ -31,4 +14,4 @@ Do you work in a country that is interested in installing the DHIS2 COVID-19 tra
 
 ## Metadata Reference
 
-[Version 1.0.0](https://packages.dhis2.org/en/CHIS_AGG/1.0.0/DHIS2.36/CHIS_AGG_COMPLETE_1.0.0_DHIS2.36.xlsx)
+[Version 1.0.2](https://packages.dhis2.org/en/C19_CS/1.0.2/C19_CS_COMPLETE_1.0.2_DHIS2.37.xlsx)
