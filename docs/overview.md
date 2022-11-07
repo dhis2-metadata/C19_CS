@@ -16,3 +16,19 @@ The package supports surveillance workflows and automated analysis for key compo
 All digital data packages are optimized for Android data collection with the DHIS2 Capture App, which is free to download on the [Google Play store](https://play.google.com/store/apps/details?id=com.dhis2&hl=en).
 
 Do you work in a country that is interested in installing the DHIS2 COVID-19 tracker? Please contact us at [post@dhis2.org](mailto:post@dhis2.org).
+
+## Design
+
+### Version 1.0.2
+
+## Installation
+
+[Installation Guide](#c19-cs-installation)
+
+## Release Note
+
+[Release Note](#c19-cs-release-note)
+
+## Metadata Reference
+
+[Version 1.0.0](https://packages.dhis2.org/en/CHIS_AGG/1.0.0/DHIS2.36/CHIS_AGG_COMPLETE_1.0.0_DHIS2.36.xlsx)
