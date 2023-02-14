@@ -1,1 +1,1 @@
-# COVID19 - Case Surveillance
+# C19 - Covid-19 Case Surveillance
